@@ -1,0 +1,17 @@
+artellapipe.tools.modelchecker.widgets package
+==============================================
+
+Submodules
+----------
+
+.. toctree::
+
+   artellapipe.tools.modelchecker.widgets.modelchecker
+
+Module contents
+---------------
+
+.. automodule:: artellapipe.tools.modelchecker.widgets
+   :members:
+   :undoc-members:
+   :show-inheritance:

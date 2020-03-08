@@ -1,0 +1,7 @@
+artellapipe.tools.modelchecker.widgets.modelchecker module
+==========================================================
+
+.. automodule:: artellapipe.tools.modelchecker.widgets.modelchecker
+   :members:
+   :undoc-members:
+   :show-inheritance:

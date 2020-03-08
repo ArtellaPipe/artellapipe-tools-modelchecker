@@ -1,12 +1,13 @@
 artellapipe.tools.modelchecker package
 ======================================
 
-Submodules
-----------
+Subpackages
+-----------
 
 .. toctree::
 
-   artellapipe.tools.modelchecker.modelchecker
+   artellapipe.tools.modelchecker.core
+   artellapipe.tools.modelchecker.widgets
 
 Module contents
 ---------------

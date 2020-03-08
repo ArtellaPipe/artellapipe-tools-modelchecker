@@ -1,0 +1,17 @@
+artellapipe.tools.modelchecker.core package
+===========================================
+
+Submodules
+----------
+
+.. toctree::
+
+   artellapipe.tools.modelchecker.core.modelchecker
+
+Module contents
+---------------
+
+.. automodule:: artellapipe.tools.modelchecker.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
