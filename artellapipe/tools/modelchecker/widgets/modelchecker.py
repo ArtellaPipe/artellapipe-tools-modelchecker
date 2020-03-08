@@ -17,6 +17,6 @@ import artellapipe
 
 class ArtellaModelChecker(artellapipe.PyblishTool, object):
 
-    def __init__(self, project, config):
+    def __init__(self, project, config, settings, parent):
 
-        super(ArtellaModelChecker, self).__init__(project=project, config=config)
+        super(ArtellaModelChecker, self).__init__(project=project, config=config, settings=settings, parent=parent)
