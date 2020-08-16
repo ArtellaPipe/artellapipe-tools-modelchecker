@@ -12,10 +12,10 @@ __license__ = "MIT"
 __maintainer__ = "Tomas Poveda"
 __email__ = "tpovedatd@gmail.com"
 
-import artellapipe
+from artellapipe.libs.pyblish.core import tool
 
 
-class ArtellaModelChecker(artellapipe.PyblishTool, object):
+class ArtellaModelChecker(tool.ArtellaPyblishTool, object):
 
     def __init__(self, project, config, settings, parent):
 

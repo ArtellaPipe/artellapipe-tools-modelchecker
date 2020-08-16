@@ -12,22 +12,19 @@ __license__ = "MIT"
 __maintainer__ = "Tomas Poveda"
 __email__ = "tpovedatd@gmail.com"
 
-import artellapipe
+from artellapipe.core import tool
 
 # Defines ID of the tool
 TOOL_ID = 'artellapipe-tools-modelchecker'
 
-# We skip the reloading of this module when launching the tool
-no_reload = True
 
-
-class ModelCheckerTool(artellapipe.Tool, object):
+class ModelCheckerTool(tool.ArtellaTool, object):
     def __init__(self, *args, **kwargs):
         super(ModelCheckerTool, self).__init__(*args, **kwargs)
 
     @classmethod
     def config_dict(cls, file_name=None):
-        base_tool_config = artellapipe.Tool.config_dict(file_name=file_name)
+        base_tool_config = tool.ArtellaTool.config_dict(file_name=file_name)
         tool_config = {
             'name': 'Model Checker',
             'id': 'artellapipe-tools-modelchecker',
@@ -53,7 +50,7 @@ class ModelCheckerTool(artellapipe.Tool, object):
         return base_tool_config
 
 
-class ModelCheckerToolset(artellapipe.Toolset, object):
+class ModelCheckerToolset(tool.ArtellaToolset, object):
     ID = TOOL_ID
 
     def __init__(self, *args, **kwargs):
