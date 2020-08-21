@@ -1,6 +1,5 @@
 # ===================================================================
 # artellapipe-tools-modelchecker requirements file
 # ===================================================================
-
 artellapipe
 artellapipe-libs-pyblish
